@@ -18,29 +18,20 @@ All changes to the configuration must be done manually to the object literal cal
 
 Configurable values:
 
-* threadKeywords
-  List of keywords (case-insensitive) the script will search from thread's subject and first post.
+* threadKeywords: List of keywords (case-insensitive) the script will search from thread's subject and first post.
 
-* markerMD5
-  Marker's hash (in img element's data-md5 attribute).
+* markerMD5: Marker's hash (in img element's data-md5 attribute).
 
-* imageLimit
-  Thread image limit at which the script should start looking for cross-thread links.
+* imageLimit: Thread image limit at which the script should start looking for cross-thread links.
 
-* APIRequestInterval
-  Delay (in seconds) between each request to the 4chan API.
+* APIRequestInterval: Delay (in seconds) between each request to the 4chan API.
 
-* threadUpdateInterval
-  Delay (in seconds) between thread updates.
+* threadUpdateInterval: Delay (in seconds) between thread updates.
 
-* threadUpdateTTL
-  Time (in seconds) after which a request to the 4chan API times out.
+* threadUpdateTTL: Time (in seconds) after which a request to the 4chan API times out.
 
-* threadUpdateRetryLimit
-  Amount of times the script will try to search each thread for marker (set 0 for infinite).
+* threadUpdateRetryLimit: Amount of times the script will try to search each thread for marker (set 0 for infinite).
 
-* newThreadAutoOpen
-  True: opens new thread automatically, false: shows a notification when new thread is found.
+* newThreadAutoOpen: True: opens new thread automatically, false: shows a notification when new thread is found.
 
-* newThreadOpenInNewTab
-  True: opens new thread in a new tab (enable popups for this!), false: opens new thread in current tab.
+* newThreadOpenInNewTab: True: opens new thread in a new tab (enable popups for this!), false: opens new thread in current tab.
